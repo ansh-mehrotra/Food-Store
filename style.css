@@ -1,0 +1,254 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+
+#nav{
+    z-index: 1;
+    background-color: white;
+    height: 70px;
+    position:fixed;
+    top: 0px;
+    /* left: 0px;
+    right: 0px; */
+    width: 100%;
+}
+
+#menu-items-wrapper{
+     position: absolute;
+    right: 10px;
+    top: 30px;
+    font-family:'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 14px; 
+}
+
+.menu-items{
+    font-family:'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 14px; 
+    margin-right: 20px;
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+}
+
+#btn{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    top: -12px;
+}
+
+#logo{
+    width: 70px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+#logo >img{
+    width: 40px;
+    height: 40px;
+}
+
+
+#background-img{
+    width: 98vw;
+    height: 100vh;
+    margin: 0px;
+    /* position: fixed; */
+    position: relative;
+    top: 0px;
+    z-index: -1;
+}
+
+#image-wrapper{
+    margin: 0px;
+    height: 100%;
+}
+#heading{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    position: relative; 
+    top: 200px;
+    
+}
+
+#description{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+    position: relative;
+    top: 220px;
+}
+
+#sec1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+#sec2{
+    display: flex;
+    height: 400px;
+    margin: 0px;
+    height: fit-content
+}
+
+.sec2-items{
+    width: 25%;
+    height:70vh;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.sec2-items>i{
+
+    font-size: 96px;
+    color: white;
+    position: relative;
+    top: 30vh;
+    transform: translateY(-50%);    
+}
+
+.sec2-items:hover{
+    font-size: 100px;
+}
+.sec2-items>:nth-child(2){
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 24px;
+color: white;
+position: relative;
+    top:26vh;
+}
+
+.sec2-items>:nth-child(3){
+    position: relative;
+    top:26vh;
+    color: white;
+font-family: 'Poppins',sans-serif;
+font-size: 14px; 
+letter-spacing: 0.5px;
+line-height: 1.6;
+}
+#item1{
+    background-color:  #5acda6;
+}
+#item2{
+    background-color:   #91ac41;;
+}
+#item3{
+    background-color:   #e4b476;
+}
+#item4{
+    background-color:   #f69dad;
+}
+
+#sec3{
+    height: 91vh;
+    text-align: center;
+    background-color:  #f7eee2;
+}
+
+#sec3>p{
+    margin-bottom: 0px;
+}
+#fresh-food{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat',cursive;
+    margin: 0px;
+    padding-top: 110px;
+    text-align: center;
+    grid-area: fresh-food;
+}
+
+#Vegan-store{
+font-family: 'Poppins',sans-serif;
+font-size: 44px;
+font-weight: 600;
+text-align: center;
+margin-top: 10px;
+grid-area: vegan;
+}
+
+
+.description{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    grid-area: desc;
+}
+
+.icon-wrapper{
+    margin-top: 100px;
+    width: 150px;
+    background-color:  #e3b375;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icon-wrapper{
+      display: grid;
+    grid-template-areas:
+        'desc desc desc desc'
+        'cam  rocket twitter weixin'
+    ;
+    justify-content:space-evenly;
+    justify-content: center;
+    column-gap: 110px;
+    align-items:center;
+}
+.icon-wrapper>i{
+    font-size: 60px;
+    position: relative;
+    top: 43px;
+    color: white;
+}
+#cam{
+    grid-area: cam;
+}
+#rocket{
+    grid-area: rocket;
+}
+#twitter{
+    grid-area: twitter;
+}
+#weixin{
+    grid-area: weixin;
+}
+.item-heading{
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.item-desc{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
